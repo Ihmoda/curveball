@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F94088A1201A8D0F00ECAE58 /* AddQuoteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94088A0201A8D0F00ECAE58 /* AddQuoteDelegate.swift */; };
+		F94088A3201A8D4600ECAE58 /* NewQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94088A2201A8D4600ECAE58 /* NewQuote.swift */; };
+		F94088A5201A8E4600ECAE58 /* QuoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94088A4201A8E4600ECAE58 /* QuoteListViewController.swift */; };
 		F977FF0C20196FAA00252915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF0B20196FAA00252915 /* AppDelegate.swift */; };
-		F977FF0E20196FAA00252915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF0D20196FAA00252915 /* ViewController.swift */; };
 		F977FF1120196FAA00252915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F977FF0F20196FAA00252915 /* Main.storyboard */; };
 		F977FF1420196FAA00252915 /* curveballs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F977FF1220196FAA00252915 /* curveballs.xcdatamodeld */; };
 		F977FF1620196FAA00252915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F977FF1520196FAA00252915 /* Assets.xcassets */; };
 		F977FF1920196FAA00252915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F977FF1720196FAA00252915 /* LaunchScreen.storyboard */; };
 		F977FF2420196FAA00252915 /* curveballsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF2320196FAA00252915 /* curveballsTests.swift */; };
 		F977FF2F20196FAA00252915 /* curveballsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF2E20196FAA00252915 /* curveballsUITests.swift */; };
+		F977FF3D2019711D00252915 /* SwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF3C2019711D00252915 /* SwitchVC.swift */; };
+		F977FF3F201977AE00252915 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF3E201977AE00252915 /* DatePickerVC.swift */; };
+		F977FF41201A38B600252915 /* CustomSwipeTableVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF40201A38B600252915 /* CustomSwipeTableVCTableViewController.swift */; };
+		F977FF43201A5F0900252915 /* RefinedFetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF42201A5F0900252915 /* RefinedFetchViewController.swift */; };
+		F977FF45201A781800252915 /* AddAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF44201A781800252915 /* AddAnimalViewController.swift */; };
+		F977FF47201A7A7900252915 /* AddAnimalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF46201A7A7900252915 /* AddAnimalDelegate.swift */; };
+		F977FF49201A7E2000252915 /* NewAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF48201A7E2000252915 /* NewAnimal.swift */; };
+		F977FF4B201A879400252915 /* AddQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977FF4A201A879400252915 /* AddQuoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F94088A0201A8D0F00ECAE58 /* AddQuoteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuoteDelegate.swift; sourceTree = "<group>"; };
+		F94088A2201A8D4600ECAE58 /* NewQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuote.swift; sourceTree = "<group>"; };
+		F94088A4201A8E4600ECAE58 /* QuoteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListViewController.swift; sourceTree = "<group>"; };
 		F977FF0820196FAA00252915 /* curveballs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = curveballs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F977FF0B20196FAA00252915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F977FF0D20196FAA00252915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F977FF1020196FAA00252915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F977FF1320196FAA00252915 /* curveballs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = curveballs.xcdatamodel; sourceTree = "<group>"; };
 		F977FF1520196FAA00252915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,14 @@
 		F977FF2A20196FAA00252915 /* curveballsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = curveballsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F977FF2E20196FAA00252915 /* curveballsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curveballsUITests.swift; sourceTree = "<group>"; };
 		F977FF3020196FAA00252915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F977FF3C2019711D00252915 /* SwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchVC.swift; sourceTree = "<group>"; };
+		F977FF3E201977AE00252915 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		F977FF40201A38B600252915 /* CustomSwipeTableVCTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipeTableVCTableViewController.swift; sourceTree = "<group>"; };
+		F977FF42201A5F0900252915 /* RefinedFetchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefinedFetchViewController.swift; sourceTree = "<group>"; };
+		F977FF44201A781800252915 /* AddAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnimalViewController.swift; sourceTree = "<group>"; };
+		F977FF46201A7A7900252915 /* AddAnimalDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnimalDelegate.swift; sourceTree = "<group>"; };
+		F977FF48201A7E2000252915 /* NewAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnimal.swift; sourceTree = "<group>"; };
+		F977FF4A201A879400252915 /* AddQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +119,18 @@
 		F977FF0A20196FAA00252915 /* curveballs */ = {
 			isa = PBXGroup;
 			children = (
+				F977FF46201A7A7900252915 /* AddAnimalDelegate.swift */,
+				F977FF3C2019711D00252915 /* SwitchVC.swift */,
+				F977FF3E201977AE00252915 /* DatePickerVC.swift */,
+				F977FF40201A38B600252915 /* CustomSwipeTableVCTableViewController.swift */,
+				F977FF42201A5F0900252915 /* RefinedFetchViewController.swift */,
+				F977FF4A201A879400252915 /* AddQuoteViewController.swift */,
+				F94088A4201A8E4600ECAE58 /* QuoteListViewController.swift */,
+				F94088A0201A8D0F00ECAE58 /* AddQuoteDelegate.swift */,
+				F94088A2201A8D4600ECAE58 /* NewQuote.swift */,
+				F977FF48201A7E2000252915 /* NewAnimal.swift */,
+				F977FF44201A781800252915 /* AddAnimalViewController.swift */,
 				F977FF0B20196FAA00252915 /* AppDelegate.swift */,
-				F977FF0D20196FAA00252915 /* ViewController.swift */,
 				F977FF0F20196FAA00252915 /* Main.storyboard */,
 				F977FF1520196FAA00252915 /* Assets.xcassets */,
 				F977FF1720196FAA00252915 /* LaunchScreen.storyboard */,
@@ -262,9 +292,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F977FF0E20196FAA00252915 /* ViewController.swift in Sources */,
+				F977FF47201A7A7900252915 /* AddAnimalDelegate.swift in Sources */,
 				F977FF1420196FAA00252915 /* curveballs.xcdatamodeld in Sources */,
 				F977FF0C20196FAA00252915 /* AppDelegate.swift in Sources */,
+				F94088A1201A8D0F00ECAE58 /* AddQuoteDelegate.swift in Sources */,
+				F977FF3F201977AE00252915 /* DatePickerVC.swift in Sources */,
+				F94088A3201A8D4600ECAE58 /* NewQuote.swift in Sources */,
+				F977FF49201A7E2000252915 /* NewAnimal.swift in Sources */,
+				F977FF3D2019711D00252915 /* SwitchVC.swift in Sources */,
+				F94088A5201A8E4600ECAE58 /* QuoteListViewController.swift in Sources */,
+				F977FF43201A5F0900252915 /* RefinedFetchViewController.swift in Sources */,
+				F977FF41201A38B600252915 /* CustomSwipeTableVCTableViewController.swift in Sources */,
+				F977FF45201A781800252915 /* AddAnimalViewController.swift in Sources */,
+				F977FF4B201A879400252915 /* AddQuoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +474,7 @@
 				DEVELOPMENT_TEAM = 7S6V5Z4QGC;
 				INFOPLIST_FILE = curveballs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.activealarm.curveballs;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.activealarm.Star-Wars-Encyclopedia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +489,7 @@
 				DEVELOPMENT_TEAM = 7S6V5Z4QGC;
 				INFOPLIST_FILE = curveballs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.activealarm.curveballs;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.activealarm.Star-Wars-Encyclopedia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
